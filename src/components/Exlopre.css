@@ -1,0 +1,10 @@
+.exlopre {
+  width: 80vw;
+  margin-top: 10px;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.exlopre::-webkit-scrollbar {
+  display: none;
+}

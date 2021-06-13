@@ -1,0 +1,48 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: darkcyan;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* padding: 20px; */
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+.dark-mode .main {
+  background-color: var(--dark-bg);
+}
+.main__card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  min-height: 100px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  background-color: var(--secondary-color) !important;
+  cursor: pointer;
+}
+
+.dark-mode .main__card {
+  background-color: var(--dark-secondary-color);
+}
+/* .main__card:hover {
+  scale: 0.01;
+} */
+.main__card--text {
+  font-size: x-large;
+}
+.dark-mode .main__card--text {
+  font-size: x-large;
+  color: var(--darkGray);
+}

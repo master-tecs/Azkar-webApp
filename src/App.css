@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #0b0d13;
+  --white: #dfdfe0;
+  --gray: #5e5f62;
+  --darkGray: #1d1d1d;
+  --dark-bg: #191a1f;
+  --primary-color: #1e35cd;
+  --dark-primary-color: rgb(0, 59, 59);
+  --secondary-color: #8d9693;
+  --dark-secondary-color: #818386;
+  --surface: rgb(69, 75, 77);
+  --dark-surface-1: #25262c;
+  --dark-surface-2: #23242a;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: var(--white);
+  flex-direction: column;
+}
+
+.dark-mode .app {
+  background-color: var(--dark-bg);
+}
+
+/* .app__top {
+  display: flex;
+  flex: 1;
+}
+.app__bottom {
+  width: 100%;
+  bottom: 0;
+} */

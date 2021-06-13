@@ -1,0 +1,19 @@
+.counter {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 80px;
+  width: 80px;
+  margin: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dark-mode .counter {
+  background-color: var(--dark-secondary-color);
+  color: var(--black);
+}
+.counter h2 {
+  margin: auto;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.album {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.album__img {
+  border-radius: 12px;
+  height: 130px;
+  width: 130px;
+}
+
+.album__title {
+  margin: 5px 0;
+  font-size: medium;
+  color: var(--black);
+}
+
+.dark-mode .album__title {
+  color: var(--white);
+}
+
+.album__name {
+  font-size: small;
+  color: gray;
+}

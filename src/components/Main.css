@@ -1,0 +1,105 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  margin-left: 50px;
+}
+
+.main__top {
+  margin-top: 10px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__top .MuiSvgIcon-root {
+  font-size: large;
+}
+
+.main__top--left {
+  display: flex;
+  color: var(--black);
+  align-items: center;
+}
+.dark-mode .main__top--left {
+  display: flex;
+  color: var(--gray);
+  align-items: center;
+}
+
+.forwardIcon {
+  margin: 0 25px;
+}
+
+.searchIcon {
+  margin: 0 10px 0 30px;
+}
+.dark-mode .main__top--left > p {
+  font-size: large;
+}
+
+.main__top--right {
+  display: flex;
+  align-items: center;
+}
+.main__top--right > p {
+  margin: 10px;
+  font-size: large;
+}
+
+.dark-mode .main__top--right > p {
+  color: var(--gray);
+}
+
+.exploreHeder {
+  margin-top: 15px;
+  font-size: x-large;
+}
+
+.dark-mode .exploreHeder {
+  color: var(--white);
+}
+
+/* main__bottom */
+.main__bottom {
+  display: flex;
+  margin: 15px 50px 5px;
+  margin-left: 0;
+  justify-content: space-between;
+}
+
+.popular {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.dark-mode .popular > h2 {
+  color: var(--white);
+}
+
+.lastest {
+  margin-left: 20px;
+  width: 400px;
+}
+
+.dark-mode .lastest > h2 {
+  color: var(--white);
+}
+.lastest__top {
+  display: flex;
+  background-color: var(--secondary-color);
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.dark-mode .lastest__top {
+  background-color: var(--dark-surface-1);
+}
+.lastest > h2 {
+  margin: 5px;
+}
+.popular > h2 {
+  margin: 3px;
+}
